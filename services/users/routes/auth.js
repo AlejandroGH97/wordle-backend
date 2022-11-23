@@ -40,7 +40,7 @@ router.post('/login', async (req, res, next) => {
     return res.status(401).send({ message: 'Invalid User.' });
   }
 
-  const token = generateAccessToken(user.username);
+  const token = generateAccessToken(user._id);
   res.send({ token });
 });
 
