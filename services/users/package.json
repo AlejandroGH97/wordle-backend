@@ -7,10 +7,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@wordle/auth-middleware": "link:../../libs/auth-middleware",
+    "@wordle/auth-middleware": "file:.yalc/@wordle/auth-middleware",
     "axios": "^1.2.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

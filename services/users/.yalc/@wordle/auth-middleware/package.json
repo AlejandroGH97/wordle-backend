@@ -1,0 +1,14 @@
+{
+  "name": "@wordle/auth-middleware",
+  "version": "1.0.0",
+  "author": "alejandrogh97 <alejandrogoicochea@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "yalcSig": "3f5861d8c8745bccabef929f5aa01950"
+}
