@@ -22,7 +22,7 @@ router.get('/init', async (req, res, next) => {
             },
           },
         ]),
-      ]
+      ],
     );
 
     res.json({

@@ -6,7 +6,8 @@
   "author": "alejandrogh97 <alejandrogoicochea@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start":"node index.js"
   },
   "dependencies": {
     "@wordle/auth-middleware": "link:../../libs/auth-middleware",
