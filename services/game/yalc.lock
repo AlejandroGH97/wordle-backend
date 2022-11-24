@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@wordle/auth-middleware": {
+      "version": "1.0.0",
+      "signature": "3f5861d8c8745bccabef929f5aa01950",
+      "file": true
+    }
+  }
+}
